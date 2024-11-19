@@ -1,7 +1,7 @@
-
 #include <iostream>
 #include <fmt/core.h>
 #include <GLFW/glfw3.h>
+#include <glm/glm.hpp>
 
 GLFWwindow* createWindow() {
 	glfwInit();
@@ -22,6 +22,9 @@ int main()
 {
 	std::cout << "hi c" << std::endl;
 	fmt::print("hi fmt\n");
+
+	glm::vec3 vec{ 1.0f };
+	fmt::print("hi glm ({}, {}, {})\n", vec.x, vec.y, vec.z);
 
 	auto window = createWindow();
 
