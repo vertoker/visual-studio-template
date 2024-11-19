@@ -8,3 +8,4 @@ Resources
 - https://stackoverflow.com/questions/23882112/how-to-add-static-libraries-to-a-visual-studio-project
 - https://www.glfw.org/documentation.html
 - https://github.com/g-truc/glm/releases
+- https://www.telerik.com/forums/visual-studio-file-buildaction-and-copy-to-output-directory-questions
